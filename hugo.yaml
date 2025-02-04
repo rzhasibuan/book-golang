@@ -3,15 +3,21 @@ languageCode: en-us
 title: Menulis coding 
 theme: PaperMod
 
+outputs: 
+  home: ["HTML", "RSS", "JSON"]
+
 params:
  homeInfoParams:
     title: "Menulis coding"
-    content: "Adalah personal blog yang berisi tentang pengalaman dan pengetahuan yang saya dapatkan di dunia coding. Semoga bermanfaat."
+    content: "Adalah personal blog yang berisi tentang pengalaman dan pengetahuan yang saya dapatkan selama bekerja di dunia coding dan programming. Semoga bermanfaat."
  socialIcons:
      - name : github
        url : 'https://github.com/rzhasibuan'
      - name : linkedin 
        url : 'https://www.linkedin.com/in/rzhasibuan/'
+ search:
+   enable: true
+   searchEngine: "Fuse"
  cover: 
   linkFullImages: true
  ShowBreadcrumbs: true
@@ -29,10 +35,10 @@ menu:
       name: Blog
       url: /blog/
       weight: 20
-    - identifier: projects
-      name: Projects
-      url: /projects/
-      weight: 30
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 25
     - identifier: contact
       name: Contact
       url: /contact/

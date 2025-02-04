@@ -1,6 +1,6 @@
 ---
 date: '2025-02-04T14:08:09+07:00'
-draft: false
+draft: true 
 title: 'This aricle about learn how to use hugo'
 ---
 
