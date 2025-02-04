@@ -5,7 +5,7 @@ theme: PaperMod
 
 params:
  homeInfoParams:
-    title: "Rzhasibuan"
+    title: "Menulis coding"
     content: "A blog about technology, programming, and life."
  socialIcons:
      - name : github
