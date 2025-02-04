@@ -1,0 +1,39 @@
+baseURL: ""
+languageCode: en-us
+title: Rzhasibuan
+theme: PaperMod
+
+params:
+ homeInfoParams:
+    title: "Rzhasibuan"
+    content: "A blog about technology, programming, and life."
+ socialIcons:
+     - name : github
+       url : 'https://github.com/rzhasibuan'
+     - name : linkedin 
+       url : 'https://www.linkedin.com/in/rzhasibuan/'
+ cover: 
+  linkFullImages: true
+ ShowBreadcrumbs: true
+ ShowReadingTime: true
+ ShowShareButtons: true
+ ShowPostNavLinks: true
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: blog
+      name: Blog
+      url: /blog/
+      weight: 20
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 30
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 40
