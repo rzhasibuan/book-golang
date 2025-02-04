@@ -6,7 +6,7 @@ theme: PaperMod
 params:
  homeInfoParams:
     title: "Menulis coding"
-    content: "A blog about technology, programming, and life."
+    content: "Adalah personal blog yang berisi tentang pengalaman dan pengetahuan yang saya dapatkan di dunia coding. Semoga bermanfaat."
  socialIcons:
      - name : github
        url : 'https://github.com/rzhasibuan'
