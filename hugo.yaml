@@ -1,45 +1,54 @@
 baseURL: ""
 languageCode: en-us
-title: Menulis coding 
-theme: PaperMod
+title: "Menulis Coding"
+theme: "PaperMod"
 
 outputs: 
   home: ["HTML", "RSS", "JSON"]
 
+taxonomies:
+  tag: "tags"
+
 params:
- homeInfoParams:
-    title: "Menulis coding"
-    content: "Adalah personal blog yang berisi tentang pengalaman dan pengetahuan yang saya dapatkan selama bekerja di dunia coding dan programming. Semoga bermanfaat."
- socialIcons:
-     - name : github
-       url : 'https://github.com/rzhasibuan'
-     - name : linkedin 
-       url : 'https://www.linkedin.com/in/rzhasibuan/'
- search:
-   enable: true
-   searchEngine: "Fuse"
- cover: 
-  linkFullImages: true
- ShowBreadcrumbs: true
- ShowReadingTime: true
- ShowShareButtons: true
- ShowPostNavLinks: true
+  label:     
+    icon: "img/art.png"
+    iconHeight: 40
+  customCSS:
+    - "css/custom.css"
+  homeInfoParams:
+    title: "Tentang"
+    content: "Adalah personal blog yang berisi tentang pengalaman dan pengetahuan yang penulis dapatkan selama bekerja di dunia coding dan programming lebih dari 5 tahun. Semoga bermanfaat."
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/rzhasibuan"
+    - name: linkedin 
+      url: "https://www.linkedin.com/in/rzhasibuan/"
+
+  search:
+    enable: true
+    searchEngine: "Fuse"
+
+  cover: 
+    linkFullImages: true
+
+  ShowBreadcrumbs: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowWordCount: true
 
 menu:
   main:
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 10
     - identifier: blog
       name: Blog
-      url: /blog/
+      url: "/blog/"
       weight: 20
     - identifier: search
       name: Search
-      url: /search/
+      url: "/search/"
       weight: 25
-    - identifier: contact
-      name: Contact
-      url: /contact/
-      weight: 40
+    - identifier: tags
+      name: Tags
+      url: "/tags/"
+      weight: 30
