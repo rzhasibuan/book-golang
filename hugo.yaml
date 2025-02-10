@@ -10,19 +10,30 @@ taxonomies:
   tag: "tags"
 
 params:
+  env: "production"
+  assets:
+    favicon: "img/mcd.png"
+    favicon16x16: "img/mcd.png" 
+    favicon32x32: "img/mcd.png"
   label:     
     icon: "img/mcd.png"
   customCSS:
     - "css/custom.css"
   homeInfoParams:
-    title: "Tentang"
-    content: "Adalah personal blog yang berisi tentang pengalaman dan pengetahuan yang penulis dapatkan selama bekerja di dunia coding dan programming lebih dari 5 tahun. Semoga bermanfaat."
+    title: "About"
+    content: "Halo, Selamat datang di Menulis Coding dan anda tidak akan tersesat karna anda sudah berada di jalan yang benar karna Menulis Coding merupakan blog yang membahas seputar perkodean entah itu tutorial bahasa pemrograman, framework, library, serta tips dan trik seputar dunia perkodean."
   disableThemeToggle: false
   socialIcons:
     - name: github
-      url: "https://github.com/rzhasibuan"
+      url: "https://github.com/menuliscoding"
     - name: linkedin 
       url: "https://www.linkedin.com/in/rzhasibuan/"
+    - name: x
+      url: "https://twitter.com/menuliscoding"
+    - name: facebook 
+      url: "https://www.facebook.com/menuliscoding"
+    - name: instagram
+      url: "https://www.instagram.com/menuliscoding"
 
   search:
     enable: true
