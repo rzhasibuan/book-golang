@@ -11,14 +11,13 @@ taxonomies:
 
 params:
   label:     
-    icon: "img/art.png"
-    iconHeight: 40
+    icon: "img/mcd.png"
   customCSS:
     - "css/custom.css"
   homeInfoParams:
     title: "Tentang"
     content: "Adalah personal blog yang berisi tentang pengalaman dan pengetahuan yang penulis dapatkan selama bekerja di dunia coding dan programming lebih dari 5 tahun. Semoga bermanfaat."
-
+  disableThemeToggle: false
   socialIcons:
     - name: github
       url: "https://github.com/rzhasibuan"
