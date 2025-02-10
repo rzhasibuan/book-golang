@@ -9,13 +9,30 @@
     <lastBuildDate>Mon, 10 Feb 2025 10:08:00 +0700</lastBuildDate>
     <atom:link href="//localhost:1313/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Race condition in golang </title>
-      <link>//localhost:1313/posts/race-condition-in-golang/</link>
+      <title>Array di golang </title>
+      <link>//localhost:1313/posts/array-di-golang/</link>
       <pubDate>Mon, 10 Feb 2025 10:08:00 +0700</pubDate>
-      <guid>//localhost:1313/posts/race-condition-in-golang/</guid>
-      <description>&lt;h2 id=&#34;race-condition&#34;&gt;race condition&lt;/h2&gt;
-&lt;p&gt;race condition adalah kondisi dimana dua atau lebih thread berusaha mangagkses data yang sama pada waktu berasamaan, dan salah satu dari thread tersebut melakukan write operation pada data tersebut
-sehingga data tersebut menjadi tidak konsisten.&lt;/p&gt;</description>
+      <guid>//localhost:1313/posts/array-di-golang/</guid>
+      <description>&lt;h1 id=&#34;array&#34;&gt;Array&lt;/h1&gt;
+&lt;h2 id=&#34;daftar-isi&#34;&gt;Daftar Isi&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#pendahuluan&#34;&gt;Pendahuluan&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#deklarasi-dan-inisialisasi-array&#34;&gt;Deklarasi dan Inisialisasi Array&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#akses-elemen-array&#34;&gt;Akses Elemen Array&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#iterasi-array&#34;&gt;Iterasi Array&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#modifikasi-array&#34;&gt;Modifikasi Array&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#panjang-array&#34;&gt;Panjang Array&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#array-sebagai-parameter-fungsi&#34;&gt;Array sebagai Parameter Fungsi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#perbedaan-array-dan-slice&#34;&gt;Perbedaan Array dan Slice&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#kesimpulan&#34;&gt;Kesimpulan&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#daftar-pustaka&#34;&gt;Daftar Pustaka&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;pendahuluan&#34;&gt;Pendahuluan&lt;/h2&gt;
+&lt;p&gt;Array adalah struktur data yang digunakan untuk menyimpan sekumpulan elemen dengan tipe data yang sama di dalam Golang. Array memiliki ukuran tetap yang tidak dapat diubah setelah dideklarasikan.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;deklarasi-dan-inisialisasi-array&#34;&gt;Deklarasi dan Inisialisasi Array&lt;/h2&gt;
+&lt;p&gt;Di Golang, array dapat dideklarasikan dengan menentukan panjangnya dan tipe datanya.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
